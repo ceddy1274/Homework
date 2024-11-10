@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <style>
+            #myCanvas {
+                display: none;
+            }
+
+            #textbox {
+                display:flex;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="textbox">
+            <input type="text" id="name" placeholder="Enter your name" style="flex: 2; box-sizing: border-box;">
+            <button id="submitName" style="flex: 1; box-sizing: border-box;" onclick="submitName()">Submit</button>
+        </div>
+        <canvas id="myCanvas" width="1000" height="500" style="border:1px solid #cccccc;"></canvas>
+        <script src="game.js"></script>
+    </body>
+    <div id = "scores"></div>
+</html>
