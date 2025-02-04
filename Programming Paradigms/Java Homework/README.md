@@ -1,4 +1,4 @@
-# Assignment Title (e.g., "Map Editor in Java")
+# Map Editor in Java
 
 ## 📌 Overview
 This project was the made up of the first three homework assignments for the Programming Paradigms class. The first assignment was an introduction to Java. The second was to use JSON to create a map editor that could save and load data. The third assignment was to use polymorphism to make a statue strafe, a mushroom grow, and a turtle jump.
