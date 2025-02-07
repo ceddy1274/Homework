@@ -1,1 +1,2 @@
 # Programming Foundations I Class Description
+This is the first programming class taught at the University of Arkansas. It focused on the most necessary concepts that all programmers must have such as how a data is encoded, iterative and logical statements, functions, arrays, string manipulation, file I/O, and classes. The class also included a lab which touched on how to use the linux command terminal effectively and reviewed some of the concepts taught in class. All homework assignments were written in C++ and include a pdf of the project report for more in depth details. 
