@@ -1,0 +1,398 @@
+Script started on 2024-06-28 23:39:11-0500
+groups: cannot find name for group ID 762800513
+]0;camerone@turing: ~/HW4[01;32mcamerone@turing[00m:[01;34m~/HW4[00m$ g++ -std=c++11 -Wall *.cpp -o hw4
+[01m[Kmain.cpp:[m[K In function ‘[01m[Kbool bracketChecker(std::__cxx11::string)[m[K’:
+[01m[Kmain.cpp:28:22:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i = 0; [01;35m[Ki < bracket.length()[m[K; i++)
+                    [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[Kmain.cpp:[m[K In function ‘[01m[Kbool tagChecker(std::__cxx11::string)[m[K’:
+[01m[Kmain.cpp:101:22:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for(int i = 0; [01;35m[Ki < tag.length()[m[K; i++)
+                    [01;35m[K~~^~~~~~~~~~~~~~[m[K
+]0;camerone@turing: ~/HW4[01;32mcamerone@turing[00m:[01;34m~/HW4[00m$ ./hw4
+What would you like todo:
+	1) Check an expression for balanced brackets
+	2) Display the results of a tag-system algorithm on input
+	3) Quit
+1
+Provide input for the bracket checker: ( )x(
+Not balanced
+What would you like todo:
+	1) Check an expression for balanced brackets
+	2) Display the results of a tag-system algorithm on input
+	3) Quit
+1
+Provide input for the bracket checker: (a+b)-[7(3)-{x{[]}}]
+Balanced brackets
+What would you like todo:
+	1) Check an expression for balanced brackets
+	2) Display the results of a tag-system algorithm on input
+	3) Quit
+1
+Provide input for the bracket checker: 1
+Not balanced
+What would you like todo:
+	1) Check an expression for balanced brackets
+	2) Display the results of a tag-system algorithm on input
+	3) Quit
+1
+Provide input for the bracket checker: ]
+Not balanced
+What would you like todo:
+	1) Check an expression for balanced brackets
+	2) Display the results of a tag-system algorithm on input
+	3) Quit
+1
+Provide input for the bracket checker: {}[]<>()
+Balanced brackets
+What would you like todo:
+	1) Check an expression for balanced brackets
+	2) Display the results of a tag-system algorithm on input
+	3) Quit
+1
+Provide input for the bracket checker: <{[(>}])
+Not balanced
+What would you like todo:
+	1) Check an expression for balanced brackets
+	2) Display the results of a tag-system algorithm on input
+	3) Quit
+2
+Here are the rules for the tag-system:
+	a-->bcc
+	b-->a#
+	c-->aaa
+Provide input for tag-system (type ONLY a, b, c, or # characters): h
+Character in your string input was not formatted correctly (use only a, b, c, #)
+Provide input for tag-system (type ONLY a, b, c, or # characters): aba
+CQueue: a b a 
+
+CQueue: a b c c 
+
+CQueue: c c b c c 
+
+CQueue: b c c a a a 
+
+CQueue: c a a a a # 
+
+CQueue: a a a # a a a 
+
+CQueue: a # a a a b c c 
+
+CQueue: a a a b c c b c c 
+
+CQueue: a b c c b c c b c c 
+
+CQueue: c c b c c b c c b c c 
+
+CQueue: b c c b c c b c c a a a 
+
+CQueue: c b c c b c c a a a a # 
+
+CQueue: c c b c c a a a a # a a a 
+
+CQueue: b c c a a a a # a a a a a a 
+
+CQueue: c a a a a # a a a a a a a # 
+
+CQueue: a a a # a a a a a a a # a a a 
+
+CQueue: a # a a a a a a a # a a a b c c 
+
+CQueue: a a a a a a a # a a a b c c b c c 
+
+CQueue: a a a a a # a a a b c c b c c b c c 
+
+CQueue: a a a # a a a b c c b c c b c c b c c 
+
+CQueue: a # a a a b c c b c c b c c b c c b c c 
+
+CQueue: a a a b c c b c c b c c b c c b c c b c c 
+
+CQueue: a b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: c c b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: b c c b c c b c c b c c b c c b c c b c c a a a 
+
+CQueue: c b c c b c c b c c b c c b c c b c c a a a a # 
+
+CQueue: c c b c c b c c b c c b c c b c c a a a a # a a a 
+
+CQueue: b c c b c c b c c b c c b c c a a a a # a a a a a a 
+
+CQueue: c b c c b c c b c c b c c a a a a # a a a a a a a # 
+
+CQueue: c c b c c b c c b c c a a a a # a a a a a a a # a a a 
+
+CQueue: b c c b c c b c c a a a a # a a a a a a a # a a a a a a 
+
+CQueue: c b c c b c c a a a a # a a a a a a a # a a a a a a a # 
+
+CQueue: c c b c c a a a a # a a a a a a a # a a a a a a a # a a a 
+
+CQueue: b c c a a a a # a a a a a a a # a a a a a a a # a a a a a a 
+
+CQueue: c a a a a # a a a a a a a # a a a a a a a # a a a a a a a # 
+
+CQueue: a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a 
+
+CQueue: a # a a a a a a a # a a a a a a a # a a a a a a a # a a a b c c 
+
+CQueue: a a a a a a a # a a a a a a a # a a a a a a a # a a a b c c b c c 
+
+CQueue: a a a a a # a a a a a a a # a a a a a a a # a a a b c c b c c b c c 
+
+CQueue: a a a # a a a a a a a # a a a a a a a # a a a b c c b c c b c c b c c 
+
+CQueue: a # a a a a a a a # a a a a a a a # a a a b c c b c c b c c b c c b c c 
+
+CQueue: a a a a a a a # a a a a a a a # a a a b c c b c c b c c b c c b c c b c c 
+
+CQueue: a a a a a # a a a a a a a # a a a b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: a a a # a a a a a a a # a a a b c c b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: a # a a a a a a a # a a a b c c b c c b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: a a a a a a a # a a a b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: a a a a a # a a a b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: a a a # a a a b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: a # a a a b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: a a a b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: a b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c a a a 
+
+CQueue: c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c a a a a # 
+
+CQueue: c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c a a a a # a a a 
+
+CQueue: b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c a a a a # a a a a a a 
+
+CQueue: c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c a a a a # a a a a a a a # 
+
+CQueue: c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c a a a a # a a a a a a a # a a a 
+
+CQueue: b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c a a a a # a a a a a a a # a a a a a a 
+
+CQueue: c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c a a a a # a a a a a a a # a a a a a a a # 
+
+CQueue: c c b c c b c c b c c b c c b c c b c c b c c b c c b c c a a a a # a a a a a a a # a a a a a a a # a a a 
+
+CQueue: b c c b c c b c c b c c b c c b c c b c c b c c b c c a a a a # a a a a a a a # a a a a a a a # a a a a a a 
+
+CQueue: c b c c b c c b c c b c c b c c b c c b c c b c c a a a a # a a a a a a a # a a a a a a a # a a a a a a a # 
+
+CQueue: c c b c c b c c b c c b c c b c c b c c b c c a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a 
+
+CQueue: b c c b c c b c c b c c b c c b c c b c c a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a 
+
+CQueue: c b c c b c c b c c b c c b c c b c c a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # 
+
+CQueue: c c b c c b c c b c c b c c b c c a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a 
+
+CQueue: b c c b c c b c c b c c b c c a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a 
+
+CQueue: c b c c b c c b c c b c c a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # 
+
+CQueue: c c b c c b c c b c c a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a 
+
+CQueue: b c c b c c b c c a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a 
+
+CQueue: c b c c b c c a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # 
+
+CQueue: c c b c c a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a 
+
+CQueue: b c c a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a 
+
+CQueue: c a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # 
+
+CQueue: a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a 
+
+CQueue: a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a b c c 
+
+CQueue: a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a b c c b c c 
+
+CQueue: a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a b c c b c c b c c 
+
+CQueue: a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a b c c b c c b c c b c c 
+
+CQueue: a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a b c c b c c b c c b c c b c c 
+
+CQueue: a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a b c c b c c b c c b c c b c c b c c 
+
+CQueue: a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a b c c b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a b c c b c c b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: a # a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: a a a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: a a a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: a a a # a a a a a a a # a a a a a a a # a a a a a a a # a a a b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: a # a a a a a a a # a a a a a a a # a a a a a a a # a a a b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: a a a a a a a # a a a a a a a # a a a a a a a # a a a b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: a a a a a # a a a a a a a # a a a a a a a # a a a b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: a a a # a a a a a a a # a a a a a a a # a a a b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: a # a a a a a a a # a a a a a a a # a a a b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: a a a a a a a # a a a a a a a # a a a b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: a a a a a # a a a a a a a # a a a b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c 
+
+CQueue: a a a # a a a a a a a # a a a b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c 
+
+100 iterations I'm done
+Final tag...
+CQueue: a # a a a a a a a # a a a b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c b c c 
+
+What would you like todo:
+	1) Check an expression for balanced brackets
+	2) Display the results of a tag-system algorithm on input
+	3) Quit
+2
+Here are the rules for the tag-system:
+	a-->bcc
+	b-->a#
+	c-->aaa
+Provide input for tag-system (type ONLY a, b, c, or # characters): bbc
+CQueue: b b c 
+
+CQueue: c a # 
+
+CQueue: # a a a 
+
+Final tag...
+CQueue: # a a a 
+
+What would you like todo:
+	1) Check an expression for balanced brackets
+	2) Display the results of a tag-system algorithm on input
+	3) Quit
+2
+Here are the rules for the tag-system:
+	a-->bcc
+	b-->a#
+	c-->aaa
+Provide input for tag-system (type ONLY a, b, c, or # characters): #
+CQueue: # 
+
+Final tag...
+CQueue: # 
+
+What would you like todo:
+	1) Check an expression for balanced brackets
+	2) Display the results of a tag-system algorithm on input
+	3) Quit
+2
+Here are the rules for the tag-system:
+	a-->bcc
+	b-->a#
+	c-->aaa
+Provide input for tag-system (type ONLY a, b, c, or # characters): abba
+CQueue: a b b a 
+
+CQueue: b a b c c 
+
+CQueue: b c c a # 
+
+CQueue: c a # a # 
+
+CQueue: # a # a a a 
+
+Final tag...
+CQueue: # a # a a a 
+
+What would you like todo:
+	1) Check an expression for balanced brackets
+	2) Display the results of a tag-system algorithm on input
+	3) Quit
+2
+Here are the rules for the tag-system:
+	a-->bcc
+	b-->a#
+	c-->aaa
+Provide input for tag-system (type ONLY a, b, c, or # characters): baa
+CQueue: b a a 
+
+CQueue: a a # 
+
+CQueue: # b c c 
+
+Final tag...
+CQueue: # b c c 
+
+What would you like todo:
+	1) Check an expression for balanced brackets
+	2) Display the results of a tag-system algorithm on input
+	3) Quit
+4 2
+Here are the rules for the tag-system:
+	a-->bcc
+	b-->a#
+	c-->aaa
+Provide input for tag-system (type ONLY a, b, c, or # characters): abc
+CQueue: a b c 
+
+CQueue: c b c c 
+
+CQueue: c c a a a 
+
+CQueue: a a a a a a 
+
+CQueue: a a a a b c c 
+
+CQueue: a a b c c b c c 
+
+CQueue: b c c b c c b c c 
+
+CQueue: c b c c b c c a # 
+
+CQueue: c c b c c a # a a a 
+
+CQueue: b c c a # a a a a a a 
+
+CQueue: c a # a a a a a a a # 
+
+CQueue: # a a a a a a a # a a a 
+
+Final tag...
+CQueue: # a a a a a a a # a a a 
+
+What would you like todo:
+	1) Check an expression for balanced brackets
+	2) Display the results of a tag-system algorithm on input
+	3) Quit
+4
+What would you like todo:
+	1) Check an expression for balanced brackets
+	2) Display the results of a tag-system algorithm on input
+	3) Quit
+3
+Have a good day :)
+]0;camerone@turing: ~/HW4[01;32mcamerone@turing[00m:[01;34m~/HW4[00m$ exit
+exit
+
+Script done on 2024-06-28 23:42:48-0500
