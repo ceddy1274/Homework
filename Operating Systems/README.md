@@ -1,0 +1,2 @@
+# Operating Systems Class Description
+Operating systems is a class introducing the concepts of processes, synchronization hardware, cpu scheduling, deadlock, memory management, virtual memory, and buffer overflow attacks. Half of the homeworks were written homeworks and the other half was programming homeworks. I only posted the programming homeworks on here and reordered them (for example the first programming homework was technically the second homework in the class, however it was the first programming homework so I named it homework one). 
