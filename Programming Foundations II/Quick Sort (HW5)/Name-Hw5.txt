@@ -1,0 +1,130 @@
+Script started on 2024-07-06 23:38:29-0500
+groups: cannot find name for group ID 762800513
+]0;camerone@turing: ~/hw5[01;32mcamerone@turing[00m:[01;34m~/hw5[00m$ lsscript Name-Hw4.txtls[Kcd HW4[2Pexit./hw4g++ -std=c++11 -Wall *.cpp -o hw4[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./hw4[K[1Pexitcd HW4[4Plsscript Name-Hw4.txtls[K[K./hw5
+Hello, would you like to test the runtime for dual-pivot quicksort or regular quicksort?
+1) Regular Quicksort
+2) Dual-Pivot Quicksort
+Type 1 or 2: 1
+What range do you want for your data (ex: 100 would be numbers between 1-100): 10
+How many values do you want to sort?: 10
+
+Run time: 2.1e-05 seconds
+IM DONE]0;camerone@turing: ~/hw5[01;32mcamerone@turing[00m:[01;34m~/hw5[00m$ cat unsort.txt
+3
+6
+7
+5
+3
+5
+6
+2
+9
+1
+]0;camerone@turing: ~/hw5[01;32mcamerone@turing[00m:[01;34m~/hw5[00m$ cat sort.txt
+1
+2
+3
+3
+5
+5
+6
+6
+7
+9
+]0;camerone@turing: ~/hw5[01;32mcamerone@turing[00m:[01;34m~/hw5[00m$ ./he[Kw5
+Hello, would you like to test the runtime for dual-pivot quicksort or regular quicksort?
+1) Regular Quicksort
+2) Dual-Pivot Quicksort
+Type 1 or 2: 2
+What range do you want for your data (ex: 100 would be numbers between 1-100): 10
+How many values do you want to sort?: 10
+
+Run time: 1e-05 seconds
+IM DONE]0;camerone@turing: ~/hw5[01;32mcamerone@turing[00m:[01;34m~/hw5[00m$ cat sort[K[K[K[Kunsort.txt
+3
+6
+7
+5
+3
+5
+6
+2
+9
+1
+]0;camerone@turing: ~/hw5[01;32mcamerone@turing[00m:[01;34m~/hw5[00m$ cat sort.txt
+1
+2
+3
+3
+5
+5
+6
+6
+7
+9
+]0;camerone@turing: ~/hw5[01;32mcamerone@turing[00m:[01;34m~/hw5[00m$ ./hw5
+Hello, would you like to test the runtime for dual-pivot quicksort or regular quicksort?
+1) Regular Quicksort
+2) Dual-Pivot Quicksort
+Type 1 or 2: 1
+What range do you want for your data (ex: 100 would be numbers between 1-100): 100
+How many values do you want to sort?: 10
+
+Run time: 8e-06 seconds
+IM DONE]0;camerone@turing: ~/hw5[01;32mcamerone@turing[00m:[01;34m~/hw5[00m$ cat unsort.txt
+83
+86
+77
+15
+93
+35
+86
+92
+49
+21
+]0;camerone@turing: ~/hw5[01;32mcamerone@turing[00m:[01;34m~/hw5[00m$ cat sort.txt
+15
+21
+35
+49
+77
+83
+86
+86
+92
+93
+]0;camerone@turing: ~/hw5[01;32mcamerone@turing[00m:[01;34m~/hw5[00m$ cat sort.txtunsort.txt[9P./hw5
+Hello, would you like to test the runtime for dual-pivot quicksort or regular quicksort?
+1) Regular Quicksort
+2) Dual-Pivot Quicksort
+Type 1 or 2: 2
+What range do you want for your data (ex: 100 would be numbers between 1-100): 100
+How many values do you want to sort?: 10
+
+Run time: 1.1e-05 seconds
+IM DONE]0;camerone@turing: ~/hw5[01;32mcamerone@turing[00m:[01;34m~/hw5[00m$ ./hw5cat sort.txtunsort.txt
+83
+86
+77
+15
+93
+35
+86
+92
+49
+21
+]0;camerone@turing: ~/hw5[01;32mcamerone@turing[00m:[01;34m~/hw5[00m$ cat unsort.txt[9P./hw5cat sort.txt
+15
+21
+35
+49
+77
+83
+86
+86
+92
+93
+]0;camerone@turing: ~/hw5[01;32mcamerone@turing[00m:[01;34m~/hw5[00m$ exit
+exit
+
+Script done on 2024-07-06 23:40:23-0500
