@@ -1,15 +1,3 @@
-Script started on 2024-06-28 23:39:11-0500
-groups: cannot find name for group ID 762800513
-]0;camerone@turing: ~/HW4[01;32mcamerone@turing[00m:[01;34m~/HW4[00m$ g++ -std=c++11 -Wall *.cpp -o hw4
-[01m[Kmain.cpp:[m[K In function ‘[01m[Kbool bracketChecker(std::__cxx11::string)[m[K’:
-[01m[Kmain.cpp:28:22:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
-     for(int i = 0; [01;35m[Ki < bracket.length()[m[K; i++)
-                    [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
-[01m[Kmain.cpp:[m[K In function ‘[01m[Kbool tagChecker(std::__cxx11::string)[m[K’:
-[01m[Kmain.cpp:101:22:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
-     for(int i = 0; [01;35m[Ki < tag.length()[m[K; i++)
-                    [01;35m[K~~^~~~~~~~~~~~~~[m[K
-]0;camerone@turing: ~/HW4[01;32mcamerone@turing[00m:[01;34m~/HW4[00m$ ./hw4
 What would you like todo:
 	1) Check an expression for balanced brackets
 	2) Display the results of a tag-system algorithm on input
