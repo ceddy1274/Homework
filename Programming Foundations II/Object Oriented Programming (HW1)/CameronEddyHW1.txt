@@ -1,0 +1,205 @@
+Script started on 2024-06-05 22:48:19-0500
+groups: cannot find name for group ID 762800513
+]0;camerone@turing: ~/HW1[01;32mcamerone@turing[00m:[01;34m~/HW1[00m$ ./hw1[K[K[K[K[K./main.exeg++ -Wall *.cpp -o main.exe[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pcd student.cppg++ -Wall *.cpp -o main.exe[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pcd student.cpp'main (3).cpp'[6Pmain.cpp'main (3).cpp'[3Pstudent.cppg++ -Wall *.cpp -o main.exe[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17P./main.exe[K./main.exeg++ -Wall *.cpp -o main.exe[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17P./main.exe[Kg++ -std=c++11 -Wall main.cpp Dog.cpp -o hw1
+]0;camerone@turing: ~/HW1[01;32mcamerone@turing[00m:[01;34m~/HW1[00m$ ./hw1
+Welcome to the Doggy Daycare! What would you like to do?
+1. Load dogs from a file
+2. Enroll a new dog in daycare
+3. Display all dogs with a similar energy level to your pup
+4. Print information about all currently enrolled dogs
+5. Copy all dogs to a new daycare object
+6. Quit (and save into the file)
+1
+parameterized
+parameterized
+parameterized
+parameterized
+parameterized
+parameterized
+parameterized
+parameterized
+Welcome to the Doggy Daycare! What would you like to do?
+1. Load dogs from a file
+2. Enroll a new dog in daycare
+3. Display all dogs with a similar energy level to your pup
+4. Print information about all currently enrolled dogs
+5. Copy all dogs to a new daycare object
+6. Quit (and save into the file)
+2
+What is the name of your dog: Snoopy
+What is the age of your dog: 0
+What is the age of your dog: 11
+What is the breed of your dog: Chienese Crusted Poweder Puff
+What is the size of your dog in pounds: 400
+What is the size of your dog in pounds: -1
+What is the size of your dog in pounds: 23
+What energy level does your dog have: 0
+What energy level does your dog have: 11
+What energy level does your dog have: 5
+parameterized
+Name: Snoopy
+Breed: Chienese Crusted Poweder Puff
+Age: 11
+Size: 23
+Energy: 5
+Welcome to the Doggy Daycare! What would you like to do?
+1. Load dogs from a file
+2. Enroll a new dog in daycare
+3. Display all dogs with a similar energy level to your pup
+4. Print information about all currently enrolled dogs
+5. Copy all dogs to a new daycare object
+6. Quit (and save into the file)
+7
+4
+Name: Bear
+Breed: goldendoodle
+Age: 7.5
+Size: 30
+Energy: 6
+Name: Lula
+Breed: chihuahua mix
+Age: 11
+Size: 11
+Energy: 4
+Name: Carmen Lydia
+Breed: dachshund
+Age: 16
+Size: 15
+Energy: 3
+Name: Sir Fluffington
+Breed: border collie/spaniel mix
+Age: 3
+Size: 20.8
+Energy: 9
+Name: Remi
+Breed: bernedoodle dog
+Age: 7
+Size: 80
+Energy: 7
+Name: Ninja
+Breed: Australian Shepard
+Age: 10
+Size: 45
+Energy: 8
+Name: Bear Bear
+Breed: Pomeranian
+Age: 1
+Size: 20
+Energy: 10
+Name: Snoopy
+Breed: Chienese Crusted Poweder Puff
+Age: 11
+Size: 23
+Energy: 5
+Welcome to the Doggy Daycare! What would you like to do?
+1. Load dogs from a file
+2. Enroll a new dog in daycare
+3. Display all dogs with a similar energy level to your pup
+4. Print information about all currently enrolled dogs
+5. Copy all dogs to a new daycare object
+6. Quit (and save into the file)
+3
+What energy would you like to search for: 0 1 0
+What energy would you like to search for: 1
+No dogs were found in this energy level
+Welcome to the Doggy Daycare! What would you like to do?
+1. Load dogs from a file
+2. Enroll a new dog in daycare
+3. Display all dogs with a similar energy level to your pup
+4. Print information about all currently enrolled dogs
+5. Copy all dogs to a new daycare object
+6. Quit (and save into the file)
+3
+What energy would you like to search for: 5
+Name: Bear
+Breed: goldendoodle
+Age: 7.5
+Size: 30
+Energy: 6
+Name: Lula
+Breed: chihuahua mix
+Age: 11
+Size: 11
+Energy: 4
+Name: Snoopy
+Breed: Chienese Crusted Poweder Puff
+Age: 11
+Size: 23
+Energy: 5
+Welcome to the Doggy Daycare! What would you like to do?
+1. Load dogs from a file
+2. Enroll a new dog in daycare
+3. Display all dogs with a similar energy level to your pup
+4. Print information about all currently enrolled dogs
+5. Copy all dogs to a new daycare object
+6. Quit (and save into the file)
+5
+Copy
+Copy
+Copy
+Copy
+Copy
+Copy
+Copy
+Copy
+Name: Bear
+Breed: goldendoodle
+Age: 7.5
+Size: 30
+Energy: 6
+Name: Lula
+Breed: chihuahua mix
+Age: 11
+Size: 11
+Energy: 4
+Name: Carmen Lydia
+Breed: dachshund
+Age: 16
+Size: 15
+Energy: 3
+Name: Sir Fluffington
+Breed: border collie/spaniel mix
+Age: 3
+Size: 20.8
+Energy: 9
+Name: Remi
+Breed: bernedoodle dog
+Age: 7
+Size: 80
+Energy: 7
+Name: Ninja
+Breed: Australian Shepard
+Age: 10
+Size: 45
+Energy: 8
+Name: Bear Bear
+Breed: Pomeranian
+Age: 1
+Size: 20
+Energy: 10
+Name: Snoopy
+Breed: Chienese Crusted Poweder Puff
+Age: 11
+Size: 23
+Energy: 5
+Welcome to the Doggy Daycare! What would you like to do?
+1. Load dogs from a file
+2. Enroll a new dog in daycare
+3. Display all dogs with a similar energy level to your pup
+4. Print information about all currently enrolled dogs
+5. Copy all dogs to a new daycare object
+6. Quit (and save into the file)
+6
+]0;camerone@turing: ~/HW1[01;32mcamerone@turing[00m:[01;34m~/HW1[00m$ more dogs.txt
+Bear,7.5,goldendoodle,30,6
+Lula,11,chihuahua mix,11,4
+Carmen Lydia,16,dachshund,15,3
+Sir Fluffington,3,border collie/spaniel mix,20.8,9
+Remi,7,bernedoodle dog,80,7
+Ninja,10,Australian Shepard,45,8
+Bear Bear,1,Pomeranian,20,10
+Snoopy,11,Chienese Crusted Poweder Puff,23,5
+]0;camerone@turing: ~/HW1[01;32mcamerone@turing[00m:[01;34m~/HW1[00m$ exit
+exit
+
+Script done on 2024-06-05 22:53:42-0500
