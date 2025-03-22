@@ -1,7 +1,3 @@
-Script started on 2024-06-05 22:48:19-0500
-groups: cannot find name for group ID 762800513
-]0;camerone@turing: ~/HW1[01;32mcamerone@turing[00m:[01;34m~/HW1[00m$ ./hw1[K[K[K[K[K./main.exeg++ -Wall *.cpp -o main.exe[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pcd student.cppg++ -Wall *.cpp -o main.exe[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pcd student.cpp'main (3).cpp'[6Pmain.cpp'main (3).cpp'[3Pstudent.cppg++ -Wall *.cpp -o main.exe[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17P./main.exe[K./main.exeg++ -Wall *.cpp -o main.exe[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17P./main.exe[Kg++ -std=c++11 -Wall main.cpp Dog.cpp -o hw1
-]0;camerone@turing: ~/HW1[01;32mcamerone@turing[00m:[01;34m~/HW1[00m$ ./hw1
 Welcome to the Doggy Daycare! What would you like to do?
 1. Load dogs from a file
 2. Enroll a new dog in daycare
