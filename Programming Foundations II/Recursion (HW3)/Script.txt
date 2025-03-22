@@ -5,7 +5,7 @@
 Which template would you like to fill out: work.t      q nota ATemplate.txt
 Error in loading the file
 You can be on the council, but we don't grant you the rank of master
-]0;camerone@turing: ~/HW3[01;32mcamerone@turing[00m:[01;34m~/HW3[00m$ ./hw3
+
 1) sports.txt
 2) fairytale.txt
 3) work.txt
@@ -41,15 +41,4 @@ Recursive or iterative(type r or i): r
 Fred is a Patient Globe who is no longer able to Dance because he is always at work. Fred's job is a job that requires its workers to be Faithful. Workers must be this way because they have to keep the Ocean from trying to Swim. Fred's boss will never give him a day off which makes him feel Unique. One day, Fred will retire and create his own Ice that will help him make money. 
 Restart or quit(type q or r): q
 You can be on the council, but we don't grant you the rank of master
-]0;camerone@turing: ~/HW3[01;32mcamerone@turing[00m:[01;34m~/HW3[00m$ exit
-exit
 
-Script done on 2024-06-19 21:13:10-0500
-
-1) sports.txt
-2) fairytale.txt
-3) work.txt
-(Enter the textfiles name as name.txt)
-Which template would you like to fill out: work.txt
-Recursive or iterative(type r or i): r
-Fred is a Patient Globe who is no longer able to Dance because he is always at work. Fred's job is a job that requires its workers to be Faithful. Workers must be this way because they have to keep the Ocean from trying to Swim. Fred's boss will never give him a day off which makes him feel Unique. One day, Fred 
