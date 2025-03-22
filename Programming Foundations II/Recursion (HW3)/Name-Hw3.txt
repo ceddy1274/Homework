@@ -1,0 +1,63 @@
+Script started on 2024-06-19 21:10:09-0500
+groups: cannot find name for group ID 762800513
+]0;camerone@turing: ~[01;32mcamerone@turing[00m:[01;34m~[00m$ exit[2Plsscript Name-HW2.txtls[K[K[Kcd HW3
+]0;camerone@turing: ~/HW3[01;32mcamerone@turing[00m:[01;34m~/HW3[00m$ cd HW3[2Pexit[2Plsscript Name-HW2.txtls[Kcd HW2[2Pexit./hw2g++ -std=c++11 -Wall main.cpp BookNode.cpp Library.cpp -o hw2[K3
+[01m[Kg++:[m[K [01;31m[Kerror: [m[KBookNode.cpp: No such file or directory
+[01m[Kg++:[m[K [01;31m[Kerror: [m[KLibrary.cpp: No such file or directory
+]0;camerone@turing: ~/HW3[01;32mcamerone@turing[00m:[01;34m~/HW3[00m$ g++ -std=c++11 -Wall main.cpp -o hw3
+]0;camerone@turing: ~/HW3[01;32mcamerone@turing[00m:[01;34m~/HW3[00m$ ./hw3
+1) sports.txt
+2) fairytale.txt
+3) work.txt
+(Enter the textfiles name as name.txt)
+Which template would you like to fill out: work.t      q nota ATemplate.txt
+Error in loading the file
+You can be on the council, but we don't grant you the rank of master
+]0;camerone@turing: ~/HW3[01;32mcamerone@turing[00m:[01;34m~/HW3[00m$ ./hw3
+1) sports.txt
+2) fairytale.txt
+3) work.txt
+(Enter the textfiles name as name.txt)
+Which template would you like to fill out: sports.txt
+Recursive or iterative(type r or i): q
+Recursive or iterative(type r or i): R
+The Arkansas Razorbacks players are Loyal. They have a secret weapon, the Engine, who is the best player the SEC has ever seen. He can Sing, Harvest, and Create like no one else since the Sun, who was the last Arkansas Razorback to win the Heisman Trophy. Because the Razorbacks have this great player, the fans are Vibrant. 
+Restart or quit(type q or r): r p
+Restart or quit(type q or r): r
+1) sports.txt
+2) fairytale.txt
+3) work.txt
+(Enter the textfiles name as name.txt)
+Which template would you like to fill out: fairytale.txt
+Recursive or iterative(type r or i): i
+Once upon a time, in a Charming land, there was a Xylophone who loved to Discover. Every day, the Engine would Dive in the Daring forest. One day, they met a Delightful Mountain who taught them how to Discover. 
+Restart or quit(type q or r): r
+1) sports.txt
+2) fairytale.txt
+3) work.txt
+(Enter the textfiles name as name.txt)
+Which template would you like to fill out: sports.txt
+Recursive or iterative(type r or i): I
+The Arkansas Razorbacks players are Unique. They have a secret weapon, the Nest, who is the best player the SEC has ever seen. He can Help, Harvest, and Swim like no one else since the Notebook, who was the last Arkansas Razorback to win the Heisman Trophy. Because the Razorbacks have this great player, the fans are Imaginative. 
+Restart or quit(type q or r): r
+1) sports.txt
+2) fairytale.txt
+3) work.txt
+(Enter the textfiles name as name.txt)
+Which template would you like to fill out: work.txt
+Recursive or iterative(type r or i): r
+Fred is a Patient Globe who is no longer able to Dance because he is always at work. Fred's job is a job that requires its workers to be Faithful. Workers must be this way because they have to keep the Ocean from trying to Swim. Fred's boss will never give him a day off which makes him feel Unique. One day, Fred will retire and create his own Ice that will help him make money. 
+Restart or quit(type q or r): q
+You can be on the council, but we don't grant you the rank of master
+]0;camerone@turing: ~/HW3[01;32mcamerone@turing[00m:[01;34m~/HW3[00m$ exit
+exit
+
+Script done on 2024-06-19 21:13:10-0500
+
+1) sports.txt
+2) fairytale.txt
+3) work.txt
+(Enter the textfiles name as name.txt)
+Which template would you like to fill out: work.txt
+Recursive or iterative(type r or i): r
+Fred is a Patient Globe who is no longer able to Dance because he is always at work. Fred's job is a job that requires its workers to be Faithful. Workers must be this way because they have to keep the Ocean from trying to Swim. Fred's boss will never give him a day off which makes him feel Unique. One day, Fred 
