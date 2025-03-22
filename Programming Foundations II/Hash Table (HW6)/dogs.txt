@@ -1,0 +1,5 @@
+Bear,7.5,goldendoodle,30,6
+Lula,11,chihuahua mix,11,4
+Carmen Lydia,16,dachshund,15,3
+Sir Fluffington,3,border collie/spaniel mix,20.8,9
+Remi,7,bernedoodle dog,80,7
