@@ -1,11 +1,3 @@
-Script started on 2024-06-12 23:27:53-0500
-groups: cannot find name for group ID 762800513
-]0;camerone@turing: ~/HW2[01;32mcamerone@turing[00m:[01;34m~/HW2[00m$ g++ -std=c++11 -Wall main.cpp BookNode.cpp Library.cpp -o hw2
-[01m[Kg++:[m[K [01;31m[Kerror: [m[Kmain.cpp: No such file or directory
-]0;camerone@turing: ~/HW2[01;32mcamerone@turing[00m:[01;34m~/HW2[00m$ ls
-BookNode.cpp  BookNode.h  Library.cpp  Library.h  main.cpp  Name-HW2.txt  project2-books.txt
-]0;camerone@turing: ~/HW2[01;32mcamerone@turing[00m:[01;34m~/HW2[00m$ lsg++ -std=c++11 -Wall main.cpp BookNode.cpp Library.cpp -o hw2
-]0;camerone@turing: ~/HW2[01;32mcamerone@turing[00m:[01;34m~/HW2[00m$ ./hw2
 What file would you like to open: project2-books.txt
 ColdDays by ButcherJim has been returned; there is 1 copy available
 
