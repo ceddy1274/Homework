@@ -22,4 +22,5 @@ The files included in this program are:
 * bridge_crossing.c (the C file of the program)
 * output.txt (a text file of a simulation for all outputs)
 * makefile (the makefile used to compile the program)
+* OS Hw6 Report.pdf (a description of the program)
   
