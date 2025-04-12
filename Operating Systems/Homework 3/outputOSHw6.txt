@@ -1,0 +1,2126 @@
+Script started on 2025-04-12 13:45:21-0500
+groups: cannot find name for group ID 762800513
+]0;camerone@turing: ~/OS/HW3[01;32mcamerone@turing[00m:[01;34m~/OS/HW3[00m$ ./bridge_crossing 
+***************************************************************
+Please select one Schedules from the following six options:
+1. 10 : DELAY(10) : 10
+   car/truck probability: [1.0, 0.0]
+2. 10 : DELAY(10) : 10
+   car/truck probability: [0.0, 1.0]
+3. 20
+   car/truck probability: [0.65, 0.35]
+4. 10 : DELAY(25) : 10 : DELAY(25) : 10
+   car/truck probability: [0.5, 0.5]
+5. 10 : DELAY(3) : 10 : DELAY(10): 10
+   car/truck probability: [0.65, 0.35]
+6. 20 : DELAY(15) : 10
+   car/truck probability: [0.75, 0.25]
+
+Please select [1-6]:1
+***************************************************************
+
+Car #0 (southbound) arrived.
+
+Car #1 (southbound) arrived.
+
+Car #2 (southbound) arrived.
+
+Car #3 (southbound) arrived.
+
+Car #4 (northbound) arrived.
+
+Car #5 (northbound) arrived.
+
+Car #6 (northbound) arrived.
+
+Car #7 (northbound) arrived.
+
+Car #8 (southbound) arrived.
+
+Car #9 (southbound) arrived.
+
+Car #0 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #0,]
+Now 1 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #7,Car #6,Car #5,Car #4,]
+Waiting Vehicles (Southbound): [Car #9,Car #8,Car #3,Car #2,Car #1,]
+
+Car #1 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #1,Car #0,]
+Now 2 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #7,Car #6,Car #5,Car #4,]
+Waiting Vehicles (Southbound): [Car #9,Car #8,Car #3,Car #2,]
+
+Car #2 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #2,Car #1,Car #0,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #7,Car #6,Car #5,Car #4,]
+Waiting Vehicles (Southbound): [Car #9,Car #8,Car #3,]
+
+Car #0 exited the bridge.
+
+Car #3 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #3,Car #2,Car #1,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #7,Car #6,Car #5,Car #4,]
+Waiting Vehicles (Southbound): [Car #9,Car #8,]
+
+Car #1 exited the bridge.
+
+Car #8 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #8,Car #3,Car #2,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #7,Car #6,Car #5,Car #4,]
+Waiting Vehicles (Southbound): [Car #9,]
+
+Car #2 exited the bridge.
+
+Car #9 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #9,Car #8,Car #3,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #7,Car #6,Car #5,Car #4,]
+Waiting Vehicles (Southbound): []
+
+Car #3 exited the bridge.
+
+Car #8 exited the bridge.
+
+Car #9 exited the bridge.
+
+Car #5 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #5,]
+Now 1 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #7,Car #6,Car #4,]
+Waiting Vehicles (Southbound): []
+
+Car #4 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #4,Car #5,]
+Now 2 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #7,Car #6,]
+Waiting Vehicles (Southbound): []
+
+Car #6 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #6,Car #4,Car #5,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #7,]
+Waiting Vehicles (Southbound): []
+
+Car #5 exited the bridge.
+
+Car #7 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #7,Car #6,Car #4,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): []
+
+Car #4 exited the bridge.
+
+Car #6 exited the bridge.
+
+Car #7 exited the bridge.
+
+Car #10 (southbound) arrived.
+
+Car #11 (southbound) arrived.
+
+Car #12 (northbound) arrived.
+
+Car #13 (northbound) arrived.
+
+Car #14 (northbound) arrived.
+
+Car #15 (northbound) arrived.
+
+Car #16 (northbound) arrived.
+
+Car #17 (northbound) arrived.
+
+Car #18 (northbound) arrived.
+
+Car #19 (southbound) arrived.
+
+Car #19 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #19,]
+Now 1 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #18,Car #17,Car #16,Car #15,Car #14,Car #13,Car #12,]
+Waiting Vehicles (Southbound): [Car #11,Car #10,]
+
+Car #11 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #11,Car #19,]
+Now 2 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #18,Car #17,Car #16,Car #15,Car #14,Car #13,Car #12,]
+Waiting Vehicles (Southbound): [Car #10,]
+
+Car #10 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #10,Car #11,Car #19,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #18,Car #17,Car #16,Car #15,Car #14,Car #13,Car #12,]
+Waiting Vehicles (Southbound): []
+
+Car #19 exited the bridge.
+
+Car #11 exited the bridge.
+
+Car #10 exited the bridge.
+
+Car #14 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #14,]
+Now 1 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #18,Car #17,Car #16,Car #15,Car #13,Car #12,]
+Waiting Vehicles (Southbound): []
+
+Car #12 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #12,Car #14,]
+Now 2 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #18,Car #17,Car #16,Car #15,Car #13,]
+Waiting Vehicles (Southbound): []
+
+Car #18 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #18,Car #12,Car #14,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #17,Car #16,Car #15,Car #13,]
+Waiting Vehicles (Southbound): []
+
+Car #14 exited the bridge.
+
+Car #16 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #16,Car #18,Car #12,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #17,Car #15,Car #13,]
+Waiting Vehicles (Southbound): []
+
+Car #18 exited the bridge.
+
+Car #12 exited the bridge.
+
+Car #15 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #15,Car #16,]
+Now 2 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #17,Car #13,]
+Waiting Vehicles (Southbound): []
+
+Car #17 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #17,Car #15,Car #16,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #13,]
+Waiting Vehicles (Southbound): []
+
+Car #16 exited the bridge.
+
+Car #13 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #13,Car #17,Car #15,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): []
+
+Car #15 exited the bridge.
+
+Car #17 exited the bridge.
+
+Car #13 exited the bridge.
+
+Finished execution.
+]0;camerone@turing: ~/OS/HW3[01;32mcamerone@turing[00m:[01;34m~/OS/HW3[00m$ ./bridge_crossing 
+***************************************************************
+Please select one Schedules from the following six options:
+1. 10 : DELAY(10) : 10
+   car/truck probability: [1.0, 0.0]
+2. 10 : DELAY(10) : 10
+   car/truck probability: [0.0, 1.0]
+3. 20
+   car/truck probability: [0.65, 0.35]
+4. 10 : DELAY(25) : 10 : DELAY(25) : 10
+   car/truck probability: [0.5, 0.5]
+5. 10 : DELAY(3) : 10 : DELAY(10): 10
+   car/truck probability: [0.65, 0.35]
+6. 20 : DELAY(15) : 10
+   car/truck probability: [0.75, 0.25]
+
+Please select [1-6]:2
+***************************************************************
+
+Truck #0 (northbound) arrived.
+
+Truck #1 (northbound) arrived.
+
+Truck #2 (northbound) arrived.
+
+Truck #3 (southbound) arrived.
+
+Truck #4 (southbound) arrived.
+
+Truck #5 (northbound) arrived.
+
+Truck #6 (southbound) arrived.
+
+Truck #7 (southbound) arrived.
+
+Truck #8 (northbound) arrived.
+
+Truck #9 (northbound) arrived.
+
+Truck #9 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #9,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Truck #8,Truck #5,Truck #2,Truck #1,Truck #0,]
+Waiting Vehicles (Southbound): [Truck #7,Truck #6,Truck #4,Truck #3,]
+
+Truck #9 exited the bridge.
+
+Truck #3 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #3,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Truck #8,Truck #5,Truck #2,Truck #1,Truck #0,]
+Waiting Vehicles (Southbound): [Truck #7,Truck #6,Truck #4,]
+
+Truck #3 exited the bridge.
+
+Truck #1 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #1,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Truck #8,Truck #5,Truck #2,Truck #0,]
+Waiting Vehicles (Southbound): [Truck #7,Truck #6,Truck #4,]
+
+Truck #1 exited the bridge.
+
+Truck #4 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #4,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Truck #8,Truck #5,Truck #2,Truck #0,]
+Waiting Vehicles (Southbound): [Truck #7,Truck #6,]
+
+Truck #4 exited the bridge.
+
+Truck #2 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #2,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Truck #8,Truck #5,Truck #0,]
+Waiting Vehicles (Southbound): [Truck #7,Truck #6,]
+
+Truck #10 (northbound) arrived.
+
+Truck #11 (southbound) arrived.
+
+Truck #12 (southbound) arrived.
+
+Truck #13 (southbound) arrived.
+
+Truck #14 (northbound) arrived.
+
+Truck #15 (southbound) arrived.
+
+Truck #16 (northbound) arrived.
+
+Truck #17 (northbound) arrived.
+
+Truck #18 (northbound) arrived.
+
+Truck #19 (northbound) arrived.
+
+Truck #2 exited the bridge.
+
+Truck #17 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #17,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Truck #19,Truck #18,Truck #16,Truck #14,Truck #10,Truck #8,Truck #5,Truck #0,]
+Waiting Vehicles (Southbound): [Truck #15,Truck #13,Truck #12,Truck #11,Truck #7,Truck #6,]
+
+Truck #17 exited the bridge.
+
+Truck #7 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #7,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Truck #19,Truck #18,Truck #16,Truck #14,Truck #10,Truck #8,Truck #5,Truck #0,]
+Waiting Vehicles (Southbound): [Truck #15,Truck #13,Truck #12,Truck #11,Truck #6,]
+
+Truck #7 exited the bridge.
+
+Truck #5 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #5,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Truck #19,Truck #18,Truck #16,Truck #14,Truck #10,Truck #8,Truck #0,]
+Waiting Vehicles (Southbound): [Truck #15,Truck #13,Truck #12,Truck #11,Truck #6,]
+
+Truck #5 exited the bridge.
+
+Truck #11 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #11,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Truck #19,Truck #18,Truck #16,Truck #14,Truck #10,Truck #8,Truck #0,]
+Waiting Vehicles (Southbound): [Truck #15,Truck #13,Truck #12,Truck #6,]
+
+Truck #11 exited the bridge.
+
+Truck #8 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #8,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Truck #19,Truck #18,Truck #16,Truck #14,Truck #10,Truck #0,]
+Waiting Vehicles (Southbound): [Truck #15,Truck #13,Truck #12,Truck #6,]
+
+Truck #8 exited the bridge.
+
+Truck #12 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #12,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Truck #19,Truck #18,Truck #16,Truck #14,Truck #10,Truck #0,]
+Waiting Vehicles (Southbound): [Truck #15,Truck #13,Truck #6,]
+
+Truck #12 exited the bridge.
+
+Truck #0 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #0,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Truck #19,Truck #18,Truck #16,Truck #14,Truck #10,]
+Waiting Vehicles (Southbound): [Truck #15,Truck #13,Truck #6,]
+
+Truck #0 exited the bridge.
+
+Truck #13 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #13,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Truck #19,Truck #18,Truck #16,Truck #14,Truck #10,]
+Waiting Vehicles (Southbound): [Truck #15,Truck #6,]
+
+Truck #13 exited the bridge.
+
+Truck #19 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #19,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Truck #18,Truck #16,Truck #14,Truck #10,]
+Waiting Vehicles (Southbound): [Truck #15,Truck #6,]
+
+Truck #19 exited the bridge.
+
+Truck #15 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #15,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Truck #18,Truck #16,Truck #14,Truck #10,]
+Waiting Vehicles (Southbound): [Truck #6,]
+
+Truck #15 exited the bridge.
+
+Truck #10 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #10,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Truck #18,Truck #16,Truck #14,]
+Waiting Vehicles (Southbound): [Truck #6,]
+
+Truck #10 exited the bridge.
+
+Truck #6 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #6,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Truck #18,Truck #16,Truck #14,]
+Waiting Vehicles (Southbound): []
+
+Truck #6 exited the bridge.
+
+Truck #14 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #14,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Truck #18,Truck #16,]
+Waiting Vehicles (Southbound): []
+
+Truck #14 exited the bridge.
+
+Truck #16 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #16,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Truck #18,]
+Waiting Vehicles (Southbound): []
+
+Truck #16 exited the bridge.
+
+Truck #18 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #18,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): []
+
+Truck #18 exited the bridge.
+
+Finished execution.
+]0;camerone@turing: ~/OS/HW3[01;32mcamerone@turing[00m:[01;34m~/OS/HW3[00m$ ./bridge_crossing 
+***************************************************************
+Please select one Schedules from the following six options:
+1. 10 : DELAY(10) : 10
+   car/truck probability: [1.0, 0.0]
+2. 10 : DELAY(10) : 10
+   car/truck probability: [0.0, 1.0]
+3. 20
+   car/truck probability: [0.65, 0.35]
+4. 10 : DELAY(25) : 10 : DELAY(25) : 10
+   car/truck probability: [0.5, 0.5]
+5. 10 : DELAY(3) : 10 : DELAY(10): 10
+   car/truck probability: [0.65, 0.35]
+6. 20 : DELAY(15) : 10
+   car/truck probability: [0.75, 0.25]
+
+Please select [1-6]:3
+***************************************************************
+
+Truck #0 (southbound) arrived.
+
+Car #1 (northbound) arrived.
+
+Car #2 (northbound) arrived.
+
+Truck #3 (southbound) arrived.
+
+Car #4 (southbound) arrived.
+
+Car #5 (northbound) arrived.
+
+Car #6 (southbound) arrived.
+
+Car #7 (southbound) arrived.
+
+Car #8 (southbound) arrived.
+
+Car #9 (southbound) arrived.
+
+Car #10 (southbound) arrived.
+
+Car #11 (northbound) arrived.
+
+Truck #12 (northbound) arrived.
+
+Truck #13 (southbound) arrived.
+
+Car #14 (southbound) arrived.
+
+Car #15 (southbound) arrived.
+
+Truck #16 (northbound) arrived.
+
+Car #17 (northbound) arrived.
+
+Truck #18 (northbound) arrived.
+
+Car #19 (northbound) arrived.
+
+Truck #0 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #0,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Truck #18,Car #17,Truck #16,Truck #12,Car #11,Car #5,Car #2,Car #1,]
+Waiting Vehicles (Southbound): [Car #15,Car #14,Truck #13,Car #10,Car #9,Car #8,Car #7,Car #6,Car #4,Truck #3,]
+
+Truck #0 exited the bridge.
+
+Truck #12 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #12,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Truck #18,Car #17,Truck #16,Car #11,Car #5,Car #2,Car #1,]
+Waiting Vehicles (Southbound): [Car #15,Car #14,Truck #13,Car #10,Car #9,Car #8,Car #7,Car #6,Car #4,Truck #3,]
+
+Truck #12 exited the bridge.
+
+Truck #3 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #3,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Truck #18,Car #17,Truck #16,Car #11,Car #5,Car #2,Car #1,]
+Waiting Vehicles (Southbound): [Car #15,Car #14,Truck #13,Car #10,Car #9,Car #8,Car #7,Car #6,Car #4,]
+
+Truck #3 exited the bridge.
+
+Truck #16 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #16,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Truck #18,Car #17,Car #11,Car #5,Car #2,Car #1,]
+Waiting Vehicles (Southbound): [Car #15,Car #14,Truck #13,Car #10,Car #9,Car #8,Car #7,Car #6,Car #4,]
+
+Truck #16 exited the bridge.
+
+Truck #13 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #13,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Truck #18,Car #17,Car #11,Car #5,Car #2,Car #1,]
+Waiting Vehicles (Southbound): [Car #15,Car #14,Car #10,Car #9,Car #8,Car #7,Car #6,Car #4,]
+
+Truck #13 exited the bridge.
+
+Truck #18 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #18,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #17,Car #11,Car #5,Car #2,Car #1,]
+Waiting Vehicles (Southbound): [Car #15,Car #14,Car #10,Car #9,Car #8,Car #7,Car #6,Car #4,]
+
+Truck #18 exited the bridge.
+
+Car #5 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #5,]
+Now 1 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #17,Car #11,Car #2,Car #1,]
+Waiting Vehicles (Southbound): [Car #15,Car #14,Car #10,Car #9,Car #8,Car #7,Car #6,Car #4,]
+
+Car #2 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #2,Car #5,]
+Now 2 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #17,Car #11,Car #1,]
+Waiting Vehicles (Southbound): [Car #15,Car #14,Car #10,Car #9,Car #8,Car #7,Car #6,Car #4,]
+
+Car #1 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #1,Car #2,Car #5,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #17,Car #11,]
+Waiting Vehicles (Southbound): [Car #15,Car #14,Car #10,Car #9,Car #8,Car #7,Car #6,Car #4,]
+
+Car #5 exited the bridge.
+
+Car #11 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #11,Car #1,Car #2,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #17,]
+Waiting Vehicles (Southbound): [Car #15,Car #14,Car #10,Car #9,Car #8,Car #7,Car #6,Car #4,]
+
+Car #2 exited the bridge.
+
+Car #19 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #19,Car #11,Car #1,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #17,]
+Waiting Vehicles (Southbound): [Car #15,Car #14,Car #10,Car #9,Car #8,Car #7,Car #6,Car #4,]
+
+Car #1 exited the bridge.
+
+Car #17 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #17,Car #19,Car #11,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): [Car #15,Car #14,Car #10,Car #9,Car #8,Car #7,Car #6,Car #4,]
+
+Car #11 exited the bridge.
+
+Car #19 exited the bridge.
+
+Car #17 exited the bridge.
+
+Car #4 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #4,]
+Now 1 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): [Car #15,Car #14,Car #10,Car #9,Car #8,Car #7,Car #6,]
+
+Car #14 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #14,Car #4,]
+Now 2 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): [Car #15,Car #10,Car #9,Car #8,Car #7,Car #6,]
+
+Car #15 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #15,Car #14,Car #4,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): [Car #10,Car #9,Car #8,Car #7,Car #6,]
+
+Car #4 exited the bridge.
+
+Car #6 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #6,Car #15,Car #14,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): [Car #10,Car #9,Car #8,Car #7,]
+
+Car #14 exited the bridge.
+
+Car #10 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #10,Car #6,Car #15,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): [Car #9,Car #8,Car #7,]
+
+Car #15 exited the bridge.
+
+Car #9 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #9,Car #10,Car #6,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): [Car #8,Car #7,]
+
+Car #6 exited the bridge.
+
+Car #8 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #8,Car #9,Car #10,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): [Car #7,]
+
+Car #10 exited the bridge.
+
+Car #7 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #7,Car #8,Car #9,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): []
+
+Car #9 exited the bridge.
+
+Car #8 exited the bridge.
+
+Car #7 exited the bridge.
+
+Finished execution.
+]0;camerone@turing: ~/OS/HW3[01;32mcamerone@turing[00m:[01;34m~/OS/HW3[00m$ ./bridge_crossing 
+***************************************************************
+Please select one Schedules from the following six options:
+1. 10 : DELAY(10) : 10
+   car/truck probability: [1.0, 0.0]
+2. 10 : DELAY(10) : 10
+   car/truck probability: [0.0, 1.0]
+3. 20
+   car/truck probability: [0.65, 0.35]
+4. 10 : DELAY(25) : 10 : DELAY(25) : 10
+   car/truck probability: [0.5, 0.5]
+5. 10 : DELAY(3) : 10 : DELAY(10): 10
+   car/truck probability: [0.65, 0.35]
+6. 20 : DELAY(15) : 10
+   car/truck probability: [0.75, 0.25]
+
+Please select [1-6]:4
+***************************************************************
+
+Truck #0 (southbound) arrived.
+
+Car #1 (southbound) arrived.
+
+Car #2 (southbound) arrived.
+
+Truck #3 (southbound) arrived.
+
+Car #4 (northbound) arrived.
+
+Car #5 (northbound) arrived.
+
+Truck #6 (northbound) arrived.
+
+Truck #7 (southbound) arrived.
+
+Truck #8 (northbound) arrived.
+
+Truck #9 (southbound) arrived.
+
+Truck #9 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #9,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Truck #8,Truck #6,Car #5,Car #4,]
+Waiting Vehicles (Southbound): [Truck #7,Truck #3,Car #2,Car #1,Truck #0,]
+
+Truck #9 exited the bridge.
+
+Truck #6 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #6,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Truck #8,Car #5,Car #4,]
+Waiting Vehicles (Southbound): [Truck #7,Truck #3,Car #2,Car #1,Truck #0,]
+
+Truck #6 exited the bridge.
+
+Truck #0 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #0,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Truck #8,Car #5,Car #4,]
+Waiting Vehicles (Southbound): [Truck #7,Truck #3,Car #2,Car #1,]
+
+Truck #0 exited the bridge.
+
+Truck #8 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #8,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #5,Car #4,]
+Waiting Vehicles (Southbound): [Truck #7,Truck #3,Car #2,Car #1,]
+
+Truck #8 exited the bridge.
+
+Truck #3 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #3,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #5,Car #4,]
+Waiting Vehicles (Southbound): [Truck #7,Car #2,Car #1,]
+
+Truck #3 exited the bridge.
+
+Truck #7 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #7,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #5,Car #4,]
+Waiting Vehicles (Southbound): [Car #2,Car #1,]
+
+Truck #7 exited the bridge.
+
+Car #2 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #2,]
+Now 1 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #5,Car #4,]
+Waiting Vehicles (Southbound): [Car #1,]
+
+Car #1 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #1,Car #2,]
+Now 2 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #5,Car #4,]
+Waiting Vehicles (Southbound): []
+
+Car #2 exited the bridge.
+
+Car #1 exited the bridge.
+
+Car #5 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #5,]
+Now 1 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #4,]
+Waiting Vehicles (Southbound): []
+
+Car #4 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #4,Car #5,]
+Now 2 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): []
+
+Car #5 exited the bridge.
+
+Car #4 exited the bridge.
+
+Truck #10 (southbound) arrived.
+
+Truck #11 (northbound) arrived.
+
+Car #12 (southbound) arrived.
+
+Truck #13 (northbound) arrived.
+
+Car #14 (southbound) arrived.
+
+Car #15 (northbound) arrived.
+
+Car #16 (southbound) arrived.
+
+Truck #17 (northbound) arrived.
+
+Truck #18 (southbound) arrived.
+
+Car #19 (northbound) arrived.
+
+Truck #10 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #10,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Truck #17,Car #15,Truck #13,Truck #11,]
+Waiting Vehicles (Southbound): [Truck #18,Car #16,Car #14,Car #12,]
+
+Truck #10 exited the bridge.
+
+Truck #11 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #11,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Truck #17,Car #15,Truck #13,]
+Waiting Vehicles (Southbound): [Truck #18,Car #16,Car #14,Car #12,]
+
+Truck #11 exited the bridge.
+
+Truck #18 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #18,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Truck #17,Car #15,Truck #13,]
+Waiting Vehicles (Southbound): [Car #16,Car #14,Car #12,]
+
+Truck #18 exited the bridge.
+
+Truck #13 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #13,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Truck #17,Car #15,]
+Waiting Vehicles (Southbound): [Car #16,Car #14,Car #12,]
+
+Truck #13 exited the bridge.
+
+Truck #17 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #17,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #15,]
+Waiting Vehicles (Southbound): [Car #16,Car #14,Car #12,]
+
+Truck #17 exited the bridge.
+
+Car #15 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #15,]
+Now 1 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,]
+Waiting Vehicles (Southbound): [Car #16,Car #14,Car #12,]
+
+Car #19 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #19,Car #15,]
+Now 2 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): [Car #16,Car #14,Car #12,]
+
+Car #15 exited the bridge.
+
+Car #19 exited the bridge.
+
+Car #12 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #12,]
+Now 1 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): [Car #16,Car #14,]
+
+Car #14 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #14,Car #12,]
+Now 2 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): [Car #16,]
+
+Car #16 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #16,Car #14,Car #12,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): []
+
+Car #12 exited the bridge.
+
+Car #14 exited the bridge.
+
+Car #16 exited the bridge.
+
+Truck #20 (southbound) arrived.
+
+Truck #21 (southbound) arrived.
+
+Truck #22 (northbound) arrived.
+
+Truck #23 (southbound) arrived.
+
+Car #24 (southbound) arrived.
+
+Car #25 (southbound) arrived.
+
+Car #26 (northbound) arrived.
+
+Car #27 (southbound) arrived.
+
+Truck #28 (southbound) arrived.
+
+Truck #29 (southbound) arrived.
+
+Truck #29 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #29,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #26,Truck #22,]
+Waiting Vehicles (Southbound): [Truck #28,Car #27,Car #25,Car #24,Truck #23,Truck #21,Truck #20,]
+
+Truck #29 exited the bridge.
+
+Truck #22 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #22,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #26,]
+Waiting Vehicles (Southbound): [Truck #28,Car #27,Car #25,Car #24,Truck #23,Truck #21,Truck #20,]
+
+Truck #22 exited the bridge.
+
+Truck #21 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #21,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #26,]
+Waiting Vehicles (Southbound): [Truck #28,Car #27,Car #25,Car #24,Truck #23,Truck #20,]
+
+Truck #21 exited the bridge.
+
+Truck #23 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #23,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #26,]
+Waiting Vehicles (Southbound): [Truck #28,Car #27,Car #25,Car #24,Truck #20,]
+
+Truck #23 exited the bridge.
+
+Truck #28 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #28,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #26,]
+Waiting Vehicles (Southbound): [Car #27,Car #25,Car #24,Truck #20,]
+
+Truck #28 exited the bridge.
+
+Truck #20 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #20,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #26,]
+Waiting Vehicles (Southbound): [Car #27,Car #25,Car #24,]
+
+Truck #20 exited the bridge.
+
+Car #25 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #25,]
+Now 1 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #26,]
+Waiting Vehicles (Southbound): [Car #27,Car #24,]
+
+Car #24 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #24,Car #25,]
+Now 2 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #26,]
+Waiting Vehicles (Southbound): [Car #27,]
+
+Car #27 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #27,Car #24,Car #25,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #26,]
+Waiting Vehicles (Southbound): []
+
+Car #25 exited the bridge.
+
+Car #24 exited the bridge.
+
+Car #27 exited the bridge.
+
+Car #26 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #26,]
+Now 1 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): []
+
+Car #26 exited the bridge.
+
+Finished execution.
+]0;camerone@turing: ~/OS/HW3[01;32mcamerone@turing[00m:[01;34m~/OS/HW3[00m$ ./bridge_crossing 
+***************************************************************
+Please select one Schedules from the following six options:
+1. 10 : DELAY(10) : 10
+   car/truck probability: [1.0, 0.0]
+2. 10 : DELAY(10) : 10
+   car/truck probability: [0.0, 1.0]
+3. 20
+   car/truck probability: [0.65, 0.35]
+4. 10 : DELAY(25) : 10 : DELAY(25) : 10
+   car/truck probability: [0.5, 0.5]
+5. 10 : DELAY(3) : 10 : DELAY(10): 10
+   car/truck probability: [0.65, 0.35]
+6. 20 : DELAY(15) : 10
+   car/truck probability: [0.75, 0.25]
+
+Please select [1-6]:5
+***************************************************************
+
+Truck #0 (northbound) arrived.
+
+Car #1 (northbound) arrived.
+
+Car #2 (northbound) arrived.
+
+Truck #3 (southbound) arrived.
+
+Truck #4 (northbound) arrived.
+
+Car #5 (southbound) arrived.
+
+Car #6 (northbound) arrived.
+
+Car #7 (northbound) arrived.
+
+Car #8 (northbound) arrived.
+
+Car #9 (northbound) arrived.
+
+Truck #0 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #0,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #9,Car #8,Car #7,Car #6,Truck #4,Car #2,Car #1,]
+Waiting Vehicles (Southbound): [Car #5,Truck #3,]
+
+Truck #0 exited the bridge.
+
+Truck #3 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #3,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #9,Car #8,Car #7,Car #6,Truck #4,Car #2,Car #1,]
+Waiting Vehicles (Southbound): [Car #5,]
+
+Car #10 (northbound) arrived.
+
+Truck #11 (southbound) arrived.
+
+Car #12 (southbound) arrived.
+
+Car #13 (northbound) arrived.
+
+Car #14 (northbound) arrived.
+
+Car #15 (northbound) arrived.
+
+Truck #16 (northbound) arrived.
+
+Car #17 (southbound) arrived.
+
+Car #18 (southbound) arrived.
+
+Truck #19 (southbound) arrived.
+
+Truck #3 exited the bridge.
+
+Truck #4 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #4,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Truck #16,Car #15,Car #14,Car #13,Car #10,Car #9,Car #8,Car #7,Car #6,Car #2,Car #1,]
+Waiting Vehicles (Southbound): [Truck #19,Car #18,Car #17,Car #12,Truck #11,Car #5,]
+
+Truck #4 exited the bridge.
+
+Truck #19 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #19,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Truck #16,Car #15,Car #14,Car #13,Car #10,Car #9,Car #8,Car #7,Car #6,Car #2,Car #1,]
+Waiting Vehicles (Southbound): [Car #18,Car #17,Car #12,Truck #11,Car #5,]
+
+Truck #19 exited the bridge.
+
+Truck #16 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #16,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #15,Car #14,Car #13,Car #10,Car #9,Car #8,Car #7,Car #6,Car #2,Car #1,]
+Waiting Vehicles (Southbound): [Car #18,Car #17,Car #12,Truck #11,Car #5,]
+
+Truck #16 exited the bridge.
+
+Truck #11 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #11,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #15,Car #14,Car #13,Car #10,Car #9,Car #8,Car #7,Car #6,Car #2,Car #1,]
+Waiting Vehicles (Southbound): [Car #18,Car #17,Car #12,Car #5,]
+
+Truck #11 exited the bridge.
+
+Car #5 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #5,]
+Now 1 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #15,Car #14,Car #13,Car #10,Car #9,Car #8,Car #7,Car #6,Car #2,Car #1,]
+Waiting Vehicles (Southbound): [Car #18,Car #17,Car #12,]
+
+Car #12 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #12,Car #5,]
+Now 2 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #15,Car #14,Car #13,Car #10,Car #9,Car #8,Car #7,Car #6,Car #2,Car #1,]
+Waiting Vehicles (Southbound): [Car #18,Car #17,]
+
+Car #17 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #17,Car #12,Car #5,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #15,Car #14,Car #13,Car #10,Car #9,Car #8,Car #7,Car #6,Car #2,Car #1,]
+Waiting Vehicles (Southbound): [Car #18,]
+
+Truck #20 (northbound) arrived.
+
+Truck #21 (southbound) arrived.
+
+Truck #22 (southbound) arrived.
+
+Truck #23 (southbound) arrived.
+
+Car #24 (northbound) arrived.
+
+Car #25 (southbound) arrived.
+
+Car #26 (southbound) arrived.
+
+Truck #27 (northbound) arrived.
+
+Car #28 (northbound) arrived.
+
+Truck #29 (northbound) arrived.
+
+Car #5 exited the bridge.
+
+Car #12 exited the bridge.
+
+Car #17 exited the bridge.
+
+Truck #27 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #27,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Truck #29,Car #28,Car #24,Truck #20,Car #15,Car #14,Car #13,Car #10,Car #9,Car #8,Car #7,Car #6,Car #2,Car #1,]
+Waiting Vehicles (Southbound): [Car #26,Car #25,Truck #23,Truck #22,Truck #21,Car #18,]
+
+Truck #27 exited the bridge.
+
+Truck #21 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #21,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Truck #29,Car #28,Car #24,Truck #20,Car #15,Car #14,Car #13,Car #10,Car #9,Car #8,Car #7,Car #6,Car #2,Car #1,]
+Waiting Vehicles (Southbound): [Car #26,Car #25,Truck #23,Truck #22,Car #18,]
+
+Truck #21 exited the bridge.
+
+Truck #29 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #29,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #28,Car #24,Truck #20,Car #15,Car #14,Car #13,Car #10,Car #9,Car #8,Car #7,Car #6,Car #2,Car #1,]
+Waiting Vehicles (Southbound): [Car #26,Car #25,Truck #23,Truck #22,Car #18,]
+
+Truck #29 exited the bridge.
+
+Truck #22 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #22,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #28,Car #24,Truck #20,Car #15,Car #14,Car #13,Car #10,Car #9,Car #8,Car #7,Car #6,Car #2,Car #1,]
+Waiting Vehicles (Southbound): [Car #26,Car #25,Truck #23,Car #18,]
+
+Truck #22 exited the bridge.
+
+Truck #20 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #20,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #28,Car #24,Car #15,Car #14,Car #13,Car #10,Car #9,Car #8,Car #7,Car #6,Car #2,Car #1,]
+Waiting Vehicles (Southbound): [Car #26,Car #25,Truck #23,Car #18,]
+
+Truck #20 exited the bridge.
+
+Truck #23 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #23,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #28,Car #24,Car #15,Car #14,Car #13,Car #10,Car #9,Car #8,Car #7,Car #6,Car #2,Car #1,]
+Waiting Vehicles (Southbound): [Car #26,Car #25,Car #18,]
+
+Truck #23 exited the bridge.
+
+Car #25 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #25,]
+Now 1 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #28,Car #24,Car #15,Car #14,Car #13,Car #10,Car #9,Car #8,Car #7,Car #6,Car #2,Car #1,]
+Waiting Vehicles (Southbound): [Car #26,Car #18,]
+
+Car #26 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #26,Car #25,]
+Now 2 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #28,Car #24,Car #15,Car #14,Car #13,Car #10,Car #9,Car #8,Car #7,Car #6,Car #2,Car #1,]
+Waiting Vehicles (Southbound): [Car #18,]
+
+Car #18 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #18,Car #26,Car #25,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #28,Car #24,Car #15,Car #14,Car #13,Car #10,Car #9,Car #8,Car #7,Car #6,Car #2,Car #1,]
+Waiting Vehicles (Southbound): []
+
+Car #25 exited the bridge.
+
+Car #26 exited the bridge.
+
+Car #18 exited the bridge.
+
+Car #10 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #10,]
+Now 1 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #28,Car #24,Car #15,Car #14,Car #13,Car #9,Car #8,Car #7,Car #6,Car #2,Car #1,]
+Waiting Vehicles (Southbound): []
+
+Car #14 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #14,Car #10,]
+Now 2 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #28,Car #24,Car #15,Car #13,Car #9,Car #8,Car #7,Car #6,Car #2,Car #1,]
+Waiting Vehicles (Southbound): []
+
+Car #13 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #13,Car #14,Car #10,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #28,Car #24,Car #15,Car #9,Car #8,Car #7,Car #6,Car #2,Car #1,]
+Waiting Vehicles (Southbound): []
+
+Car #10 exited the bridge.
+
+Car #15 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #15,Car #13,Car #14,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #28,Car #24,Car #9,Car #8,Car #7,Car #6,Car #2,Car #1,]
+Waiting Vehicles (Southbound): []
+
+Car #14 exited the bridge.
+
+Car #1 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #1,Car #15,Car #13,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #28,Car #24,Car #9,Car #8,Car #7,Car #6,Car #2,]
+Waiting Vehicles (Southbound): []
+
+Car #13 exited the bridge.
+
+Car #9 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #9,Car #1,Car #15,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #28,Car #24,Car #8,Car #7,Car #6,Car #2,]
+Waiting Vehicles (Southbound): []
+
+Car #15 exited the bridge.
+
+Car #6 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #6,Car #9,Car #1,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #28,Car #24,Car #8,Car #7,Car #2,]
+Waiting Vehicles (Southbound): []
+
+Car #1 exited the bridge.
+
+Car #8 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #8,Car #6,Car #9,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #28,Car #24,Car #7,Car #2,]
+Waiting Vehicles (Southbound): []
+
+Car #9 exited the bridge.
+
+Car #28 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #28,Car #8,Car #6,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #24,Car #7,Car #2,]
+Waiting Vehicles (Southbound): []
+
+Car #6 exited the bridge.
+
+Car #2 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #2,Car #28,Car #8,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #24,Car #7,]
+Waiting Vehicles (Southbound): []
+
+Car #8 exited the bridge.
+
+Car #24 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #24,Car #2,Car #28,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #7,]
+Waiting Vehicles (Southbound): []
+
+Car #28 exited the bridge.
+
+Car #7 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #7,Car #24,Car #2,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): []
+
+Car #2 exited the bridge.
+
+Car #24 exited the bridge.
+
+Car #7 exited the bridge.
+
+Finished execution.
+]0;camerone@turing: ~/OS/HW3[01;32mcamerone@turing[00m:[01;34m~/OS/HW3[00m$ ./bridge_crossing 
+***************************************************************
+Please select one Schedules from the following six options:
+1. 10 : DELAY(10) : 10
+   car/truck probability: [1.0, 0.0]
+2. 10 : DELAY(10) : 10
+   car/truck probability: [0.0, 1.0]
+3. 20
+   car/truck probability: [0.65, 0.35]
+4. 10 : DELAY(25) : 10 : DELAY(25) : 10
+   car/truck probability: [0.5, 0.5]
+5. 10 : DELAY(3) : 10 : DELAY(10): 10
+   car/truck probability: [0.65, 0.35]
+6. 20 : DELAY(15) : 10
+   car/truck probability: [0.75, 0.25]
+
+Please select [1-6]:6
+***************************************************************
+
+Car #0 (northbound) arrived.
+
+Truck #1 (southbound) arrived.
+
+Car #2 (southbound) arrived.
+
+Car #3 (southbound) arrived.
+
+Truck #4 (southbound) arrived.
+
+Car #5 (southbound) arrived.
+
+Car #6 (northbound) arrived.
+
+Car #7 (southbound) arrived.
+
+Car #8 (northbound) arrived.
+
+Truck #9 (northbound) arrived.
+
+Car #10 (northbound) arrived.
+
+Truck #11 (southbound) arrived.
+
+Car #12 (northbound) arrived.
+
+Truck #13 (southbound) arrived.
+
+Car #14 (northbound) arrived.
+
+Car #15 (southbound) arrived.
+
+Car #16 (southbound) arrived.
+
+Car #17 (northbound) arrived.
+
+Car #18 (northbound) arrived.
+
+Car #19 (northbound) arrived.
+
+Truck #1 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #1,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #18,Car #17,Car #14,Car #12,Car #10,Truck #9,Car #8,Car #6,Car #0,]
+Waiting Vehicles (Southbound): [Car #16,Car #15,Truck #13,Truck #11,Car #7,Car #5,Truck #4,Car #3,Car #2,]
+
+Truck #1 exited the bridge.
+
+Truck #9 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #9,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #18,Car #17,Car #14,Car #12,Car #10,Car #8,Car #6,Car #0,]
+Waiting Vehicles (Southbound): [Car #16,Car #15,Truck #13,Truck #11,Car #7,Car #5,Truck #4,Car #3,Car #2,]
+
+Truck #9 exited the bridge.
+
+Truck #4 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #4,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #18,Car #17,Car #14,Car #12,Car #10,Car #8,Car #6,Car #0,]
+Waiting Vehicles (Southbound): [Car #16,Car #15,Truck #13,Truck #11,Car #7,Car #5,Car #3,Car #2,]
+
+Truck #4 exited the bridge.
+
+Truck #11 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #11,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #18,Car #17,Car #14,Car #12,Car #10,Car #8,Car #6,Car #0,]
+Waiting Vehicles (Southbound): [Car #16,Car #15,Truck #13,Car #7,Car #5,Car #3,Car #2,]
+
+Truck #11 exited the bridge.
+
+Truck #13 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #13,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #18,Car #17,Car #14,Car #12,Car #10,Car #8,Car #6,Car #0,]
+Waiting Vehicles (Southbound): [Car #16,Car #15,Car #7,Car #5,Car #3,Car #2,]
+
+Truck #13 exited the bridge.
+
+Car #2 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #2,]
+Now 1 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #18,Car #17,Car #14,Car #12,Car #10,Car #8,Car #6,Car #0,]
+Waiting Vehicles (Southbound): [Car #16,Car #15,Car #7,Car #5,Car #3,]
+
+Car #3 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #3,Car #2,]
+Now 2 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #18,Car #17,Car #14,Car #12,Car #10,Car #8,Car #6,Car #0,]
+Waiting Vehicles (Southbound): [Car #16,Car #15,Car #7,Car #5,]
+
+Car #5 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #5,Car #3,Car #2,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #18,Car #17,Car #14,Car #12,Car #10,Car #8,Car #6,Car #0,]
+Waiting Vehicles (Southbound): [Car #16,Car #15,Car #7,]
+
+Car #2 exited the bridge.
+
+Car #15 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #15,Car #5,Car #3,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #18,Car #17,Car #14,Car #12,Car #10,Car #8,Car #6,Car #0,]
+Waiting Vehicles (Southbound): [Car #16,Car #7,]
+
+Car #3 exited the bridge.
+
+Car #16 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #16,Car #15,Car #5,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #18,Car #17,Car #14,Car #12,Car #10,Car #8,Car #6,Car #0,]
+Waiting Vehicles (Southbound): [Car #7,]
+
+Car #5 exited the bridge.
+
+Car #7 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #7,Car #16,Car #15,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #18,Car #17,Car #14,Car #12,Car #10,Car #8,Car #6,Car #0,]
+Waiting Vehicles (Southbound): []
+
+Car #15 exited the bridge.
+
+Car #16 exited the bridge.
+
+Car #7 exited the bridge.
+
+Car #12 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #12,]
+Now 1 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #18,Car #17,Car #14,Car #10,Car #8,Car #6,Car #0,]
+Waiting Vehicles (Southbound): []
+
+Car #14 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #14,Car #12,]
+Now 2 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #18,Car #17,Car #10,Car #8,Car #6,Car #0,]
+Waiting Vehicles (Southbound): []
+
+Car #17 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #17,Car #14,Car #12,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #18,Car #10,Car #8,Car #6,Car #0,]
+Waiting Vehicles (Southbound): []
+
+Car #20 (southbound) arrived.
+
+Car #21 (southbound) arrived.
+
+Car #22 (northbound) arrived.
+
+Car #23 (northbound) arrived.
+
+Car #24 (southbound) arrived.
+
+Car #25 (southbound) arrived.
+
+Car #26 (southbound) arrived.
+
+Car #27 (southbound) arrived.
+
+Car #28 (northbound) arrived.
+
+Truck #29 (northbound) arrived.
+
+Car #12 exited the bridge.
+
+Car #14 exited the bridge.
+
+Car #17 exited the bridge.
+
+Truck #29 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #29,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #28,Car #23,Car #22,Car #19,Car #18,Car #10,Car #8,Car #6,Car #0,]
+Waiting Vehicles (Southbound): [Car #27,Car #26,Car #25,Car #24,Car #21,Car #20,]
+
+Truck #29 exited the bridge.
+
+Car #0 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #0,]
+Now 1 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #28,Car #23,Car #22,Car #19,Car #18,Car #10,Car #8,Car #6,]
+Waiting Vehicles (Southbound): [Car #27,Car #26,Car #25,Car #24,Car #21,Car #20,]
+
+Car #19 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #19,Car #0,]
+Now 2 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #28,Car #23,Car #22,Car #18,Car #10,Car #8,Car #6,]
+Waiting Vehicles (Southbound): [Car #27,Car #26,Car #25,Car #24,Car #21,Car #20,]
+
+Car #18 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #18,Car #19,Car #0,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #28,Car #23,Car #22,Car #10,Car #8,Car #6,]
+Waiting Vehicles (Southbound): [Car #27,Car #26,Car #25,Car #24,Car #21,Car #20,]
+
+Car #0 exited the bridge.
+
+Car #10 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #10,Car #18,Car #19,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #28,Car #23,Car #22,Car #8,Car #6,]
+Waiting Vehicles (Southbound): [Car #27,Car #26,Car #25,Car #24,Car #21,Car #20,]
+
+Car #18 exited the bridge.
+
+Car #22 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #22,Car #10,Car #19,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #28,Car #23,Car #8,Car #6,]
+Waiting Vehicles (Southbound): [Car #27,Car #26,Car #25,Car #24,Car #21,Car #20,]
+
+Car #19 exited the bridge.
+
+Car #8 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #8,Car #22,Car #10,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #28,Car #23,Car #6,]
+Waiting Vehicles (Southbound): [Car #27,Car #26,Car #25,Car #24,Car #21,Car #20,]
+
+Car #10 exited the bridge.
+
+Car #6 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #6,Car #8,Car #22,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #28,Car #23,]
+Waiting Vehicles (Southbound): [Car #27,Car #26,Car #25,Car #24,Car #21,Car #20,]
+
+Car #22 exited the bridge.
+
+Car #28 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #28,Car #6,Car #8,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #23,]
+Waiting Vehicles (Southbound): [Car #27,Car #26,Car #25,Car #24,Car #21,Car #20,]
+
+Car #8 exited the bridge.
+
+Car #23 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #23,Car #28,Car #6,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): [Car #27,Car #26,Car #25,Car #24,Car #21,Car #20,]
+
+Car #6 exited the bridge.
+
+Car #28 exited the bridge.
+
+Car #23 exited the bridge.
+
+Car #20 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #20,]
+Now 1 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): [Car #27,Car #26,Car #25,Car #24,Car #21,]
+
+Car #24 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #24,Car #20,]
+Now 2 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): [Car #27,Car #26,Car #25,Car #21,]
+
+Car #21 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #21,Car #24,Car #20,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): [Car #27,Car #26,Car #25,]
+
+Car #20 exited the bridge.
+
+Car #26 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #26,Car #21,Car #24,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): [Car #27,Car #25,]
+
+Car #21 exited the bridge.
+
+Car #25 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #25,Car #26,Car #24,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): [Car #27,]
+
+Car #24 exited the bridge.
+
+Car #27 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #27,Car #25,Car #26,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): []
+
+Car #26 exited the bridge.
+
+Car #25 exited the bridge.
+
+Car #27 exited the bridge.
+
+Finished execution.
+]0;camerone@turing: ~/OS/HW3[01;32mcamerone@turing[00m:[01;34m~/OS/HW3[00m$ ./bridge_crossing 
+***************************************************************
+Please select one Schedules from the following six options:
+1. 10 : DELAY(10) : 10
+   car/truck probability: [1.0, 0.0]
+2. 10 : DELAY(10) : 10
+   car/truck probability: [0.0, 1.0]
+3. 20
+   car/truck probability: [0.65, 0.35]
+4. 10 : DELAY(25) : 10 : DELAY(25) : 10
+   car/truck probability: [0.5, 0.5]
+5. 10 : DELAY(3) : 10 : DELAY(10): 10
+   car/truck probability: [0.65, 0.35]
+6. 20 : DELAY(15) : 10
+   car/truck probability: [0.75, 0.25]
+
+Please select [1-6]:6
+***************************************************************
+
+Car #0 (northbound) arrived.
+
+Car #1 (southbound) arrived.
+
+Truck #2 (northbound) arrived.
+
+Car #3 (northbound) arrived.
+
+Car #4 (northbound) arrived.
+
+Car #5 (northbound) arrived.
+
+Car #6 (northbound) arrived.
+
+Car #7 (northbound) arrived.
+
+Car #8 (southbound) arrived.
+
+Car #9 (northbound) arrived.
+
+Car #10 (northbound) arrived.
+
+Truck #11 (northbound) arrived.
+
+Car #12 (northbound) arrived.
+
+Car #13 (northbound) arrived.
+
+Car #14 (southbound) arrived.
+
+Car #15 (southbound) arrived.
+
+Car #16 (northbound) arrived.
+
+Truck #17 (southbound) arrived.
+
+Truck #18 (northbound) arrived.
+
+Car #19 (northbound) arrived.
+
+Truck #18 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #18,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #16,Car #13,Car #12,Truck #11,Car #10,Car #9,Car #7,Car #6,Car #5,Car #4,Car #3,Truck #2,Car #0,]
+Waiting Vehicles (Southbound): [Truck #17,Car #15,Car #14,Car #8,Car #1,]
+
+Truck #18 exited the bridge.
+
+Truck #17 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #17,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #16,Car #13,Car #12,Truck #11,Car #10,Car #9,Car #7,Car #6,Car #5,Car #4,Car #3,Truck #2,Car #0,]
+Waiting Vehicles (Southbound): [Car #15,Car #14,Car #8,Car #1,]
+
+Truck #17 exited the bridge.
+
+Truck #2 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #2,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #16,Car #13,Car #12,Truck #11,Car #10,Car #9,Car #7,Car #6,Car #5,Car #4,Car #3,Car #0,]
+Waiting Vehicles (Southbound): [Car #15,Car #14,Car #8,Car #1,]
+
+Truck #2 exited the bridge.
+
+Truck #11 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #11,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #16,Car #13,Car #12,Car #10,Car #9,Car #7,Car #6,Car #5,Car #4,Car #3,Car #0,]
+Waiting Vehicles (Southbound): [Car #15,Car #14,Car #8,Car #1,]
+
+Truck #11 exited the bridge.
+
+Car #3 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #3,]
+Now 1 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #16,Car #13,Car #12,Car #10,Car #9,Car #7,Car #6,Car #5,Car #4,Car #0,]
+Waiting Vehicles (Southbound): [Car #15,Car #14,Car #8,Car #1,]
+
+Car #4 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #4,Car #3,]
+Now 2 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #16,Car #13,Car #12,Car #10,Car #9,Car #7,Car #6,Car #5,Car #0,]
+Waiting Vehicles (Southbound): [Car #15,Car #14,Car #8,Car #1,]
+
+Car #5 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #5,Car #4,Car #3,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #16,Car #13,Car #12,Car #10,Car #9,Car #7,Car #6,Car #0,]
+Waiting Vehicles (Southbound): [Car #15,Car #14,Car #8,Car #1,]
+
+Car #3 exited the bridge.
+
+Car #7 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #7,Car #5,Car #4,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #16,Car #13,Car #12,Car #10,Car #9,Car #6,Car #0,]
+Waiting Vehicles (Southbound): [Car #15,Car #14,Car #8,Car #1,]
+
+Car #4 exited the bridge.
+
+Car #10 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #10,Car #7,Car #5,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #16,Car #13,Car #12,Car #9,Car #6,Car #0,]
+Waiting Vehicles (Southbound): [Car #15,Car #14,Car #8,Car #1,]
+
+Car #5 exited the bridge.
+
+Car #16 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #16,Car #10,Car #7,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #13,Car #12,Car #9,Car #6,Car #0,]
+Waiting Vehicles (Southbound): [Car #15,Car #14,Car #8,Car #1,]
+
+Car #7 exited the bridge.
+
+Car #9 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #9,Car #16,Car #10,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #13,Car #12,Car #6,Car #0,]
+Waiting Vehicles (Southbound): [Car #15,Car #14,Car #8,Car #1,]
+
+Car #10 exited the bridge.
+
+Car #13 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #13,Car #9,Car #16,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #19,Car #12,Car #6,Car #0,]
+Waiting Vehicles (Southbound): [Car #15,Car #14,Car #8,Car #1,]
+
+Car #16 exited the bridge.
+
+Car #19 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #19,Car #13,Car #9,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #12,Car #6,Car #0,]
+Waiting Vehicles (Southbound): [Car #15,Car #14,Car #8,Car #1,]
+
+Car #9 exited the bridge.
+
+Car #12 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #12,Car #19,Car #13,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #6,Car #0,]
+Waiting Vehicles (Southbound): [Car #15,Car #14,Car #8,Car #1,]
+
+Car #13 exited the bridge.
+
+Car #0 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #0,Car #12,Car #19,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #6,]
+Waiting Vehicles (Southbound): [Car #15,Car #14,Car #8,Car #1,]
+
+Car #19 exited the bridge.
+
+Car #6 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #6,Car #0,Car #12,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): [Car #15,Car #14,Car #8,Car #1,]
+
+Truck #20 (southbound) arrived.
+
+Car #21 (southbound) arrived.
+
+Car #22 (northbound) arrived.
+
+Car #23 (northbound) arrived.
+
+Car #24 (northbound) arrived.
+
+Car #25 (northbound) arrived.
+
+Truck #26 (northbound) arrived.
+
+Car #27 (northbound) arrived.
+
+Car #28 (southbound) arrived.
+
+Truck #29 (northbound) arrived.
+
+Car #12 exited the bridge.
+
+Car #0 exited the bridge.
+
+Car #6 exited the bridge.
+
+Truck #20 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #20,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Truck #29,Car #27,Truck #26,Car #25,Car #24,Car #23,Car #22,]
+Waiting Vehicles (Southbound): [Car #28,Car #21,Car #15,Car #14,Car #8,Car #1,]
+
+Truck #20 exited the bridge.
+
+Truck #29 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #29,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #27,Truck #26,Car #25,Car #24,Car #23,Car #22,]
+Waiting Vehicles (Southbound): [Car #28,Car #21,Car #15,Car #14,Car #8,Car #1,]
+
+Truck #29 exited the bridge.
+
+Truck #26 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Truck #26,]
+Now 0 cars are moving.
+Now 1 trucks are moving.
+Waiting Vehicles (northbound): [Car #27,Car #25,Car #24,Car #23,Car #22,]
+Waiting Vehicles (Southbound): [Car #28,Car #21,Car #15,Car #14,Car #8,Car #1,]
+
+Truck #26 exited the bridge.
+
+Car #24 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #24,]
+Now 1 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #27,Car #25,Car #23,Car #22,]
+Waiting Vehicles (Southbound): [Car #28,Car #21,Car #15,Car #14,Car #8,Car #1,]
+
+Car #22 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #22,Car #24,]
+Now 2 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #27,Car #25,Car #23,]
+Waiting Vehicles (Southbound): [Car #28,Car #21,Car #15,Car #14,Car #8,Car #1,]
+
+Car #23 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #23,Car #22,Car #24,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #27,Car #25,]
+Waiting Vehicles (Southbound): [Car #28,Car #21,Car #15,Car #14,Car #8,Car #1,]
+
+Car #24 exited the bridge.
+
+Car #25 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #25,Car #23,Car #22,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): [Car #27,]
+Waiting Vehicles (Southbound): [Car #28,Car #21,Car #15,Car #14,Car #8,Car #1,]
+
+Car #22 exited the bridge.
+
+Car #27 (Northbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #27,Car #25,Car #23,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): [Car #28,Car #21,Car #15,Car #14,Car #8,Car #1,]
+
+Car #23 exited the bridge.
+
+Car #25 exited the bridge.
+
+Car #27 exited the bridge.
+
+Car #1 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #1,]
+Now 1 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): [Car #28,Car #21,Car #15,Car #14,Car #8,]
+
+Car #8 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #8,Car #1,]
+Now 2 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): [Car #28,Car #21,Car #15,Car #14,]
+
+Car #14 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #14,Car #8,Car #1,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): [Car #28,Car #21,Car #15,]
+
+Car #1 exited the bridge.
+
+Car #21 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #21,Car #14,Car #8,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): [Car #28,Car #15,]
+
+Car #8 exited the bridge.
+
+Car #14 exited the bridge.
+
+Car #28 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #28,Car #21,]
+Now 2 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): [Car #15,]
+
+Car #15 (Southbound) is now crossing the bridge.
+Vehicles on the bridge: [Car #15,Car #28,Car #21,]
+Now 3 cars are moving.
+Now 0 trucks are moving.
+Waiting Vehicles (northbound): []
+Waiting Vehicles (Southbound): []
+
+Car #21 exited the bridge.
+
+Car #28 exited the bridge.
+
+Car #15 exited the bridge.
+
+Finished execution.
+]0;camerone@turing: ~/OS/HW3[01;32mcamerone@turing[00m:[01;34m~/OS/HW3[00m$ exit
+exit
+
+Script done on 2025-04-12 13:50:39-0500
