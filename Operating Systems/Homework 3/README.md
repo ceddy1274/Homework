@@ -1,4 +1,4 @@
-# Homework 6
+# Homework 3
 In this homework, the primary goal was to gain a deeper understanding of multi-thread programming by using mutex locks to protect the critical section. This was achieved by simulating vehicles crossing a bridge. The vehicles would include trucks and cars from North and South directions. Restrictions had to be followed including:
 
 * Only one truck or three cars could be on the road at a time
